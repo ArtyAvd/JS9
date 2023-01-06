@@ -3,7 +3,7 @@
 let weight = '88.3';
 let height = '1.75';
 
-const bmi = (Number (weight) / Number (height**2));
+const bmi = (Number (weight) / Number (height)**2);
 console.log(bmi)
 
 
