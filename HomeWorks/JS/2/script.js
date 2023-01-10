@@ -44,7 +44,7 @@ let entranceApp = (floor * appOnFloor); //27
 const app = prompt ('номер квартиры', "");
 let entranceNumber = (Math.ceil(app / entranceApp));
 console.log(entranceNumber);
-let floorNumber = (Math.ceil(((entranceNumber-1)*entranceApp-app)/appOnFloor)*-1);
+let floorNumber = (Math.floor(((entranceNumber-1)*entranceApp-app)/appOnFloor)*-1);
 console.log(floorNumber);
 
 // 5) Вивести у консоль піраміду. Змінна вказує кількість рядків, з яких побудується піраміда. Піраміда повинна будуватися в однаковому візуальному вигляді між собою, але строго враховуючи кількість рядків
