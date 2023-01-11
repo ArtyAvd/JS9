@@ -36,23 +36,48 @@ const packs = (Math.ceil(time * need / paper));
 console.log (packs); //20
 
 
-// 4) Створити функцію, яка виведе у консоль номер поверху та номер під'їзду за номером квартири. Поверхів у нас 9, квартир на поверсі по 3
-
-let floor = Number(9);
-let appOnFloor = Number(3);
-let entranceApp = (floor * appOnFloor); //27
-const app = prompt ('номер квартиры', "");
-let entranceNumber = (Math.ceil(app / entranceApp));
-console.log(entranceNumber);
-let floorNumber = (Math.floor(((entranceNumber-1)*entranceApp-app)/appOnFloor)*-1);
-console.log(floorNumber);
 
 // 5) Вивести у консоль піраміду. Змінна вказує кількість рядків, з яких побудується піраміда. Піраміда повинна будуватися в однаковому візуальному вигляді між собою, але строго враховуючи кількість рядків
 
-for(var x = 0; x < 10; x++){ 
-    var str = ""; 
-    for(var y = 0; y <= x; y++){ 
+for(let x = 0; x < 10; x++){ 
+    let str = ""; 
+    for(let y = 0; y <= x; y++){ 
         str += "$"; } 
-    console.log(str); }
+        console.log(str); }
+        
+        
+        
+        // 4) Створити функцію, яка виведе у консоль номер поверху та номер під'їзду за номером квартири. Поверхів у нас 9, квартир на поверсі по 3
+        // let apps = 3*9;
+        // let input = prompt ('input appartmet');
+        // function Entrance (apps, input){
+        //     return input / apps;
+        // }
+        // let result = Entrance (apps, input)
+        
+        // console.log('entrance:', Math.ceil(result));
+        
+        // function Floor (input, result, apps){
+        //     return (input-(result-1)*apps)/3;
+        // }
+        // let result2 = Floor (input, result, apps)
+        // console.log ('floor:', result2)
+       
 
 
+function toEntAndFloor(totalApp) {
+    
+    const Entrance = Math.ceil(totalApp /27);
+    const Floor = Math.ceil(totalApp %27/3);
+    
+    return `Подъезд-${Entrance} Этаж-${Floor}`;
+}
+
+
+
+console.log(toEntAndFloor(12)); 
+console.log(toEntAndFloor(32)); 
+console.log(toEntAndFloor(300)); 
+console.log(toEntAndFloor(243)); 
+console.log(toEntAndFloor(13)); 
+console.log(toEntAndFloor(27)); 
