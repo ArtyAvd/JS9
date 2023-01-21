@@ -1,0 +1,62 @@
+@media (max-width: 1200px){
+    .ico {
+        margin: 40px;
+    }
+    .cards img {
+        height: 100%;
+        object-fit:cover;
+    }
+
+}
+
+@media (max-width: 992px){
+    .ico {
+        margin: 40px;
+    }
+    .cards img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .ashtaga {
+        margin: 0;
+        font-size: 13pt;
+        font-weight: 400;  
+    }
+    .carusel {
+        margin-top: 30px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .ico {
+        margin: 30px;
+    }
+    .cards img {
+        height: 100%;
+        object-fit:cover;
+    }
+    .price-card {
+        padding: 15px 0 15px 0;
+    }
+    .ashtaga {
+        margin: 0;
+        font-stretch:condensed;
+    }
+}
+
+@media (max-width: 576px) {
+    .card img {
+        height: auto;
+        width: 100%;
+        
+    }
+   
+    .ico {
+        margin: 20px;
+    }
+    .price-card {
+        padding: 15px 0 15px 0;
+    }
+    
+}

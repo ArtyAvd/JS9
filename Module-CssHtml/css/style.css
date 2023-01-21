@@ -1,0 +1,189 @@
+
+    .row,.container,[class^=col-] {
+        padding: 0;
+        margin: 0;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+
+    /* шрифты */
+    h1 {
+    color: rgb(79, 101, 244);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20pt;
+    line-height: 160%; 
+    text-align: center;
+    margin: 10px;
+}
+h2 {
+    color: rgb(116, 116, 116);
+    text-transform: uppercase;
+    font-size: 18pt;
+}
+h3 {
+    color: rgb(116, 116, 116);
+    font-size: 36pt;
+    text-align: center;
+    font-family: Freestyle Script, Arial;
+}
+h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14pt;
+    line-height: 20pt;
+    font-weight: 600;
+}
+
+.form-h {
+    color: rgb(79, 101, 244);
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-weight: 600;
+}
+.bg-content p {
+    color: white;
+    font-size: 12pt;
+    line-height: 150%;
+}
+.card-text p:first-of-type {
+    color: rgb(116, 116, 116);
+    font-size: 12pt;
+    line-height: 160%;
+}
+.about-us p {
+    color: rgb(116, 116, 116);
+    font-size: 12pt;
+}
+.ashtaga {
+    color: rgba(116, 116, 116, 0.653);
+    font-size: 14pt;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.block-h {
+    font-size: 24pt;
+    line-height: 40pt;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding: 0;
+    
+}
+.freestyle {
+    color: white;
+    font-family: Freestyle Script, Arial;
+    font-size: 24pt;
+    text-align: center;
+    padding: 0;
+}
+.price-date {
+    font-size: 12pt;
+    text-transform: uppercase;
+    color: rgb(116, 116, 116);
+    padding: 10px;   
+}
+.foot-bg-2 p {
+    font-size: 10pt;
+    text-align: center;
+    color: rgb(187, 187, 187);
+    
+}
+
+/* шрифты */
+
+
+/* фоны */
+.mask {
+    background-color: rgba(76, 60, 255, 0.412);
+}
+.mask-2 {
+    background-color: rgba(190, 190, 190, 0.383);    
+}
+.bg-1 {
+    background-image: url(../img/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-2 {
+    background-image: url(../img/bg-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-3 {
+    background-image: url(../img/bg-03.jpg);
+}
+.foot-bg {
+    background-color: rgba(72, 72, 247, 0.879);
+}
+.foot-bg-2 {
+    background-color: rgba(62, 62, 216, 0.879);
+}
+/* фоны */
+
+
+
+.ico {
+    max-width: 100px;
+}
+
+.btn {
+    background-color: rgb(98, 124, 255);
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+    padding: 10px 40px;
+}
+.btn-form {
+    background-color: rgb(98, 124, 255);
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    padding: 10px 50px 10px 50px;
+}
+.block-price {
+    background-color: rgba(72, 72, 247, 0.879);
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 700;
+}
+.block-main {
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+
+}
+.hr {
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.cards img {
+    width: 100%;
+}
+.form {
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.form-control {
+    background-color: rgba(205, 205, 205, 0.553);
+}
